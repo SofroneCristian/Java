@@ -1,0 +1,49 @@
+Fie datele de intrare (in directorul date):
+
+În fișierul autovehicule.txt se găsesc informații privind autovehiculele unei firme de transport.
+Pe fiecare linie se află informații despre un autovehicul, astfel:
+număr înmatriculare (șir de caractere), data înmatriculării (șir de caractere în format dd.MM.yyyy)
+și număr de total de kilometri parcurși - kilometrajul masinii (valoare întreagă).
+Valorile sunt despărțite prin virgulă.
+În tabela REVIZII din baza de date sqlite examen.db se află informații privind reviziile făcute la autovehicule.
+Câmpurile tabelei sunt următoarele:
+numar_inmatriculare - text - cheie primară
+data_revizie - text - în format dd.MM.yyyy
+tip_revizie - text - cu valori ITP pentr inspecțiile tehnice obligatorii sau TPU pentru reviziile tehnice voluntare
+km - integer - reprezinta valoarea kilometrajului la momentul reviziei (int)
+cost_revizie - double
+
+Să se scrie o aplicație Java care să îndeplinească următoarele cerințe:
+1) Să afișeze la consolă autovehiculele care au parcurs mai mult de 100000 km.
+Pentru fiecare autovehicul se va afișa numărul de înmatriculare și numărul de kilometri parcurși
+Punctaj: 1 punct.
+Criteriu de acordare a punctajului: afișarea corectă la consolă
+2) Să afișeze la consolă costul reviziilor pentru fiecare autovehicul.
+Pentru fiecare autovehicul se va afișa numărul de înmatriculare și costul reviziilor.
+Punctaj: 1 punct
+Criteriu de acordare a punctajului: afișarea corectă la consolă
+3) Să se scrie în fișierul text raport.txt un raport al reviziilor pe autovehicule, de forma:
+numar_inmatriculare_1
+data_revizie_1,tip_revizie_1,km_1,cost_revizie_1
+data_revizie_2,tip_revizie_2,km_2,cost_revizie_2
+...
+
+Exemplu:
+B47UYT
+10.10.2018,TPU,55000,800.0
+15.10.2019,ITP,115000,250.0
+B46EKS
+05.05.2020,TPU,75000,1200.0
+10.04.2021,ITP,145000,300.0
+B100LCT
+01.10.2020,TPU,48000,1100.0
+Punctaj: 1 punct
+Criteriu de acordare a punctajului: urmărirea fișierului raport.txt
+4) Să implementeze funcționalitățile de server și client TCP/IP și să se execute următorul scenariu: componenta client
+trimite serverului un număr de înmatriculare iar componenta server va întoarce clientului numărul reviziilor făcute
+pentru autovehiculul respectiv. Serverul se va opri după satisfacerea unei cereri client.
+Punctaj:
+1 punct - afișarea la consolă de către server a numărului de înmatriculare primit de la client
+1 punct - afișarea la consolă de către client a numărului de revizii primit de la server
+Criteriu de acordare a punctajului: afișarea corectă la consolă
+* */

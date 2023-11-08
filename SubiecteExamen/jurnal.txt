@@ -1,0 +1,6 @@
+1,ORL,1
+2,ATI,1
+3,Neuro,2
+4,Pediatrie,4
+5,Cardiologie,2
+6,Reumatologie,2

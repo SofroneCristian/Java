@@ -1,0 +1,12 @@
+1840212123456,Mihai Popescu,37,5
+2561121325685,Elena Marinescu,65,3
+5021203857962,Iustin Enescu,19,1
+6041019745962,Georgiana Popa,17,4
+1450623852258,Vasile Pricop,76,5
+1750822145525,George Berceanu,46,2
+1490930101484,Vasile Dumitrescu,72,6
+2660425101191,Mariana Nedelcu,55,3
+2710323554698,Smaranda Vranceanu,50,6
+5070121369789,Tiberiu Negru,14,4
+5101112698958,Alexandru Enache,11,4
+6050729215689,Andreea Ionita,16,4

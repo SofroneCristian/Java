@@ -1,0 +1,53 @@
+[
+  {
+    "operatiuni": [
+      {
+        "cantitate": "15",
+        "tip": "intrare"
+      },
+      {
+        "cantitate": "5",
+        "tip": "iesire"
+      },
+      {
+        "cantitate": "6",
+        "tip": "intrare"
+      }
+    ],
+    "cod": 101
+  },
+  {
+    "operatiuni": [
+      {
+        "cantitate": "17",
+        "tip": "intrare"
+      },
+      {
+        "cantitate": "65",
+        "tip": "iesire"
+      },
+      {
+        "cantitate": "26",
+        "tip": "intrare"
+      }
+    ],
+    "cod": 201
+  },
+  {
+    "operatiuni": [
+      {
+        "cantitate": "55",
+        "tip": "intrare"
+      },
+      {
+        "cantitate": "25",
+        "tip": "iesire"
+      },
+      {
+        "cantitate": "16",
+        "tip": "intrare"
+      }
+    ],
+    "cod": 302
+  }
+]
